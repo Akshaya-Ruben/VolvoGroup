@@ -1,0 +1,59 @@
+.PageTitle{
+    font-size: 25px;
+    padding: 20px;
+}
+
+.filter {
+  padding-left: 55vw;
+  padding-bottom: 25px;
+}
+
+.BeerList {
+    width: 75vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
+.BeerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1976d2;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 25px;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+    }
+    
+    .BeerContainer:hover {
+    transform: scale(1.05);
+    }
+
+    .pagination {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 1rem;
+  }
+  
+  .pagination button {
+      width: 40px;
+      height: 40px;
+      font-family: inherit;
+      font-weight: 600;
+      font-size: 16px;
+      margin: 0 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      color: grey;
+      border-color: #101010;
+  }
+  

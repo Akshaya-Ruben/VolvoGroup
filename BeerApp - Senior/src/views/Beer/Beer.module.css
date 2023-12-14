@@ -1,0 +1,14 @@
+
+.BeerContainer {
+    outline: solid 1px white;
+    border-radius: 10px;
+    background-color:  #1976d2;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 20px;
+}

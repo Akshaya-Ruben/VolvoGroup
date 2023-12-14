@@ -1,0 +1,42 @@
+ .list {
+  list-style: none;
+}
+ 
+ .listContainer {
+  padding: 20px;
+  margin-bottom: 20px;
+} 
+
+.listHeader {
+  margin: 20px;
+    padding-top: 20px;
+}
+ 
+.beerList {
+  width: 75vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+} 
+
+.fav {
+  padding: 5px;
+}
+
+.reloadButton {
+  margin: 20px;
+}
+.BeerContainer {
+  outline: solid 1px black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+    margin-top: 1vw;
+   margin-left: 5vw;
+  margin-right: 5vw; 
+  margin-bottom: 1vw;  
+  padding: 20px;
+  width: 20vw;
+}
